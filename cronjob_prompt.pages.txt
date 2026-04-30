@@ -1,0 +1,48 @@
+## 任务：每天自动监控持仓股票、推送飞书并发布 GitHub Pages 看板
+
+### 第一步：执行 Python 脚本
+cd 到项目根目录后运行：
+```bash
+cd /path/to/hermes-portfolio-sentinel && .venv/bin/python monitor.py
+```
+
+### 第二步：检查输出
+脚本会完成以下动作：
+
+- 读取 `/path/to/hermes-portfolio-sentinel/holdings.csv`
+- 拉取每只股票的最新行情
+- 计算组合市值、今日盈亏、累计盈亏、仓位占比和风险提醒
+- 写入 `/path/to/hermes-portfolio-sentinel/holdings_record.xlsx`
+- 生成 `/path/to/hermes-portfolio-sentinel/viewer/portfolio_data.json`
+- 生成 `/path/to/hermes-portfolio-sentinel/feishu_msg.md`
+
+### 第三步：发布静态网站
+在项目根目录执行：
+```bash
+cd /path/to/hermes-portfolio-sentinel && bash scripts/publish_viewer.sh
+```
+
+要求：
+
+- 仅提交站点相关文件，不要提交 `holdings_record.xlsx`
+- 如果 `viewer/portfolio_data.json` 没有变化，可以跳过提交和 push
+- push 到你自己的 GitHub fork 后会触发 GitHub Actions 更新 GitHub Pages
+- 当前仓库必须是你自己的 fork，或 `PUBLISH_REMOTE` 必须明确指向你自己的可写远端
+
+### 第四步：输出飞书消息
+读取脚本输出或 `feishu_msg.md`，最终回复只输出飞书消息文本，不要输出其他说明。
+
+消息应包含：
+
+- 组合市值
+- 今日盈亏和累计盈亏
+- 涨幅最大、跌幅最大持仓
+- 重点风险提醒
+- 持仓明细
+
+### 重要说明
+
+- 持仓配置只维护在 `holdings.csv`
+- `holdings_record.xlsx` 是每日快照记录
+- `viewer/portfolio_data.json` 是网页看板数据
+- 如果行情接口临时失败，脚本会使用成本价兜底并在提醒中标记失败原因

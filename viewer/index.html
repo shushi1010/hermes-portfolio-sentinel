@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hermes Portfolio Sentinel</title>
+  <meta name="theme-color" content="#f4f7f8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "__CF_TOKEN_PLACEHOLDER__"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div>
+        <h1>Hermes Portfolio Sentinel</h1>
+        <p id="metaText">加载中...</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="overview" id="overview"></section>
+
+    <section class="filters">
+      <div class="field search-field">
+        <label for="keyword">关键词</label>
+        <input id="keyword" type="text" placeholder="股票/名称/市场/行业/提醒">
+      </div>
+
+      <div class="field">
+        <label for="marketFilter">市场</label>
+        <select id="marketFilter">
+          <option value="">全部</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="riskFilter">风险</label>
+        <select id="riskFilter">
+          <option value="">全部</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="sortBy">排序</label>
+        <select id="sortBy">
+          <option value="market_value">市值</option>
+          <option value="weight_pct">仓位</option>
+          <option value="daily_change_pct">今日涨跌</option>
+          <option value="profit_loss_pct">累计盈亏</option>
+        </select>
+      </div>
+
+      <div class="field watched-only-field">
+        <label for="watchedOnly">关注筛选</label>
+        <label class="switch-label">
+          <input id="watchedOnly" type="checkbox">
+          <span>只看关注</span>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="applyBtn" class="btn btn-primary">筛选</button>
+        <button id="resetBtn" class="btn">重置</button>
+      </div>
+    </section>
+
+    <section class="summary" id="summary"></section>
+    <section class="cards" id="cards"></section>
+  </main>
+
+  <template id="positionTpl">
+    <article class="card">
+      <div class="card-head">
+        <span class="pill"></span>
+        <a class="title" target="_blank" rel="noopener noreferrer"></a>
+        <span class="risk"></span>
+        <button class="watch-btn" type="button" aria-label="关注">☆ 关注</button>
+      </div>
+      <div class="meta"></div>
+      <div class="values"></div>
+      <div class="section">
+        <h3>提醒</h3>
+        <p class="action-hint"></p>
+      </div>
+      <details>
+        <summary>备注</summary>
+        <p class="notes"></p>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
