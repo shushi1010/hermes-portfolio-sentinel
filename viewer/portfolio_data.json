@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-30T22:00:36",
+  "updated_at": "2026-05-01T22:01:06",
   "totals": {
-    "snapshot_time": "2026-04-30T22:00:36",
+    "snapshot_time": "2026-05-01T22:01:06",
     "position_count": 26,
-    "total_market_value": 510955.48600000003,
+    "total_market_value": 510987.38600000006,
     "total_cost_basis": 448160.31799999997,
-    "total_profit_loss": 62795.16800000006,
-    "total_profit_loss_pct": 14.011764423997947,
-    "total_daily_profit_loss": 6733.274000000008,
-    "total_daily_profit_loss_pct": 1.3353782994391385
+    "total_profit_loss": 62827.06800000009,
+    "total_profit_loss_pct": 14.018882412520977,
+    "total_daily_profit_loss": 6801.574000000008,
+    "total_daily_profit_loss_pct": 1.3490213009008685
   },
   "positions": [
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "588260.SS",
       "name": "科创智能",
       "market": "CN",
@@ -29,7 +29,7 @@
       "daily_change": 0.18900000000000006,
       "daily_change_pct": 8.807082945013983,
       "daily_profit_loss": 6993.000000000002,
-      "weight_pct": 16.90851793692259,
+      "weight_pct": 16.907462369335274,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -40,7 +40,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "518880.SS",
       "name": "黄金基金",
       "market": "CN",
@@ -57,7 +57,7 @@
       "daily_change": -0.1479999999999997,
       "daily_change_pct": -1.5062080195399927,
       "daily_profit_loss": -697.3759999999985,
-      "weight_pct": 8.924991951255809,
+      "weight_pct": 8.924434780470294,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -68,7 +68,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "300059.SZ",
       "name": "东方财富",
       "market": "CN",
@@ -85,7 +85,7 @@
       "daily_change": 0.6600000000000001,
       "daily_change_pct": 3.3502538071065997,
       "daily_profit_loss": 1452.0000000000002,
-      "weight_pct": 8.766321377749136,
+      "weight_pct": 8.765774112474862,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 8%，关注是否触及止损计划",
       "latest_news": "",
@@ -96,7 +96,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "1810.HK",
       "name": "小米集团-W",
       "market": "HK",
@@ -113,7 +113,7 @@
       "daily_change": -2.16,
       "daily_change_pct": -6.927517639512508,
       "daily_profit_loss": -2592.0,
-      "weight_pct": 6.815466504258259,
+      "weight_pct": 6.815041027255416,
       "risk_level": "High",
       "action_hint": "单日跌幅超过 5%，建议检查新闻和公告；浮亏超过 15%，需要复盘持仓逻辑",
       "latest_news": "",
@@ -124,7 +124,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "513100.SS",
       "name": "纳指ETF",
       "market": "CN",
@@ -141,7 +141,7 @@
       "daily_change": 0.052000000000000046,
       "daily_change_pct": 2.7267960146827503,
       "daily_profit_loss": 780.0000000000007,
-      "weight_pct": 5.750990214439149,
+      "weight_pct": 5.75063119072767,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -152,7 +152,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "3033.HK",
       "name": "南方恒生科技",
       "market": "HK",
@@ -169,7 +169,7 @@
       "daily_change": 0.017999999999999794,
       "daily_change_pct": 0.3783102143757838,
       "daily_profit_loss": 107.99999999999876,
-      "weight_pct": 5.608316337756279,
+      "weight_pct": 5.607966220911761,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 8%，关注是否触及止损计划",
       "latest_news": "",
@@ -180,7 +180,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "510300.SS",
       "name": "300ETF",
       "market": "CN",
@@ -197,7 +197,7 @@
       "daily_change": 0.041999999999999815,
       "daily_change_pct": 0.8782936010037603,
       "daily_profit_loss": 209.9999999999991,
-      "weight_pct": 4.720567771729532,
+      "weight_pct": 4.720273075390553,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -208,7 +208,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "512400.SS",
       "name": "工业有色",
       "market": "CN",
@@ -225,7 +225,7 @@
       "daily_change": 0.001000000000000334,
       "daily_change_pct": 0.04721435316337744,
       "daily_profit_loss": 11.000000000003674,
-      "weight_pct": 4.561845530316901,
+      "weight_pct": 4.561560742714694,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -236,7 +236,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "512660.SS",
       "name": "军工ETF",
       "market": "CN",
@@ -253,7 +253,7 @@
       "daily_change": 0.0030000000000001137,
       "daily_change_pct": 0.21489971346705686,
       "daily_profit_loss": 42.00000000000159,
-      "weight_pct": 3.8332106292327777,
+      "weight_pct": 3.83297132896349,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -264,7 +264,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "562660.SS",
       "name": "2000ETF",
       "market": "CN",
@@ -281,7 +281,7 @@
       "daily_change": 0.02400000000000002,
       "daily_change_pct": 1.2461059190031165,
       "daily_profit_loss": 240.00000000000023,
-      "weight_pct": 3.816379417443029,
+      "weight_pct": 3.8161411679152484,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -292,7 +292,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "603993.SS",
       "name": "洛阳钼业",
       "market": "CN",
@@ -309,7 +309,7 @@
       "daily_change": -0.75,
       "daily_change_pct": -3.871966959215281,
       "daily_profit_loss": -750.0,
-      "weight_pct": 3.6441530642456006,
+      "weight_pct": 3.6439255664913808,
       "risk_level": "Medium",
       "action_hint": "单日跌幅超过 3%，短线波动加大",
       "latest_news": "",
@@ -320,7 +320,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "600859.SS",
       "name": "王府井",
       "market": "CN",
@@ -337,7 +337,7 @@
       "daily_change": 0.009999999999999787,
       "daily_change_pct": 0.08090614886731219,
       "daily_profit_loss": 14.99999999999968,
-      "weight_pct": 3.63143179952079,
+      "weight_pct": 3.631205095931663,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 8%，关注是否触及止损计划",
       "latest_news": "",
@@ -348,7 +348,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "300015.SZ",
       "name": "爱尔眼科",
       "market": "CN",
@@ -365,7 +365,7 @@
       "daily_change": -0.21000000000000085,
       "daily_change_pct": -1.9108280254777146,
       "daily_profit_loss": -294.0000000000012,
-      "weight_pct": 2.9536819573359074,
+      "weight_pct": 2.9534975644193295,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -376,7 +376,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "600900.SS",
       "name": "长江电力",
       "market": "CN",
@@ -393,7 +393,7 @@
       "daily_change": 0.5100000000000016,
       "daily_change_pct": 1.9022752704214905,
       "daily_profit_loss": 255.0000000000008,
-      "weight_pct": 2.673422709860091,
+      "weight_pct": 2.6732558130113997,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -404,7 +404,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "159928.SZ",
       "name": "消费ETF",
       "market": "CN",
@@ -421,7 +421,7 @@
       "daily_change": 0.010000000000000009,
       "daily_change_pct": 1.3568521031207612,
       "daily_profit_loss": 160.00000000000014,
-      "weight_pct": 2.3391470152450813,
+      "weight_pct": 2.3390009866114383,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 8%，关注是否触及止损计划",
       "latest_news": "",
@@ -432,7 +432,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "512890.SS",
       "name": "红利低波",
       "market": "CN",
@@ -449,7 +449,7 @@
       "daily_change": -0.010000000000000009,
       "daily_change_pct": -0.8347245409015034,
       "daily_profit_loss": -100.00000000000009,
-      "weight_pct": 2.3250557681652917,
+      "weight_pct": 2.324910619222213,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -460,7 +460,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "600585.SS",
       "name": "海螺水泥",
       "market": "CN",
@@ -477,7 +477,7 @@
       "daily_change": -0.2699999999999996,
       "daily_change_pct": -1.2616822429906522,
       "daily_profit_loss": -134.99999999999977,
-      "weight_pct": 2.0676947971941333,
+      "weight_pct": 2.0675657148217743,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 15%，需要复盘持仓逻辑",
       "latest_news": "",
@@ -488,7 +488,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "515010.SS",
       "name": "华夏证券",
       "market": "CN",
@@ -505,7 +505,7 @@
       "daily_change": 0.026000000000000023,
       "daily_change_pct": 2.1434460016488064,
       "daily_profit_loss": 182.00000000000017,
-      "weight_pct": 1.697408137819661,
+      "weight_pct": 1.6973021717604588,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -516,7 +516,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "588000.SS",
       "name": "科创板50",
       "market": "CN",
@@ -533,7 +533,7 @@
       "daily_change": 0.123,
       "daily_change_pct": 8.033964728935336,
       "daily_profit_loss": 615.0,
-      "weight_pct": 1.6185362965258385,
+      "weight_pct": 1.6184352542902105,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -544,7 +544,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "159338.SZ",
       "name": "A500基金",
       "market": "CN",
@@ -561,7 +561,7 @@
       "daily_change": 0.016000000000000014,
       "daily_change_pct": 1.2688342585249814,
       "daily_profit_loss": 96.00000000000009,
-      "weight_pct": 1.4995435434076145,
+      "weight_pct": 1.4994499296700836,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -572,7 +572,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "601800.SS",
       "name": "中国交建",
       "market": "CN",
@@ -589,7 +589,7 @@
       "daily_change": -0.11000000000000032,
       "daily_change_pct": -1.5449438202247237,
       "daily_profit_loss": -110.00000000000031,
-      "weight_pct": 1.3719394726295198,
+      "weight_pct": 1.3718538249787635,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 15%，需要复盘持仓逻辑",
       "latest_news": "",
@@ -600,7 +600,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "3288.HK",
       "name": "海天味业",
       "market": "HK",
@@ -617,7 +617,7 @@
       "daily_change": -1.1000000000000014,
       "daily_change_pct": -3.047091412742386,
       "daily_profit_loss": -220.00000000000028,
-      "weight_pct": 1.3699823549795491,
+      "weight_pct": 1.3698968295080378,
       "risk_level": "Medium",
       "action_hint": "单日跌幅超过 3%，短线波动加大",
       "latest_news": "",
@@ -628,7 +628,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "589060.SS",
       "name": "科综东财",
       "market": "CN",
@@ -645,7 +645,7 @@
       "daily_change": 0.08199999999999985,
       "daily_change_pct": 5.3108808290155345,
       "daily_profit_loss": 286.9999999999995,
-      "weight_pct": 1.1137956545983734,
+      "weight_pct": 1.1137261223900348,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -656,7 +656,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "589900.SS",
       "name": "博时科综",
       "market": "CN",
@@ -673,7 +673,7 @@
       "daily_change": 0.07400000000000007,
       "daily_change_pct": 4.979811574697178,
       "daily_profit_loss": 259.0000000000002,
-      "weight_pct": 1.0685862368840482,
+      "weight_pct": 1.0685195270162695,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
@@ -684,7 +684,7 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "600587.SS",
       "name": "新华医疗",
       "market": "CN",
@@ -701,7 +701,7 @@
       "daily_change": -0.1899999999999995,
       "daily_change_pct": -1.3629842180774714,
       "daily_profit_loss": -56.99999999999985,
-      "weight_pct": 0.8073110306129484,
+      "weight_pct": 0.8072606316743793,
       "risk_level": "Medium",
       "action_hint": "浮亏超过 8%，关注是否触及止损计划",
       "latest_news": "",
@@ -712,24 +712,24 @@
       "alert_above": null
     },
     {
-      "snapshot_time": "2026-04-30T22:00:36",
+      "snapshot_time": "2026-05-01T22:01:06",
       "symbol": "CRWV",
       "name": "Coreweave",
       "market": "US",
       "sector": "科技",
       "shares": 5.0,
       "cost_price": 33.8,
-      "current_price": 114.15,
-      "previous_close": 117.42,
+      "current_price": 120.53,
+      "previous_close": 110.14,
       "currency": "USD",
-      "market_value": 570.75,
+      "market_value": 602.65,
       "cost_basis": 169.0,
-      "profit_loss": 401.75,
-      "profit_loss_pct": 237.72189349112426,
-      "daily_change": -3.269999999999996,
-      "daily_change_pct": -2.7848748083801707,
-      "daily_profit_loss": -16.34999999999998,
-      "weight_pct": 0.1117024898720825,
+      "profit_loss": 433.65,
+      "profit_loss_pct": 256.59763313609466,
+      "daily_change": 10.39,
+      "daily_change_pct": 9.4334483384783,
+      "daily_profit_loss": 51.95,
+      "weight_pct": 0.11793833204328842,
       "risk_level": "Low",
       "action_hint": "价格和仓位处于常规观察区间",
       "latest_news": "",
